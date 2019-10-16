@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mezquita"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="5dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_mezquita"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El inicio de su construcción se debe al primer emir omeya de Córdoba, haciéndose sobre el emplazamiento de la basílica visigoda de San Vicente Mártir, iglesia construida en el siglo VI, en cuyo solar se inicia la edificación del oratorio o haram en el año 786."
+                android:gravity="left"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Este primer edificio consta, en cualquier caso, de once naves longitudinales orientadas hacia el río Guadalquivir, cuya anchura es idéntica, a excepción de la central, que conduce al mihrab y las dos de los extremos. La central ligeramente más ancha que el resto y las laterales ligeramente más estrechas, aunque estas leves diferencias solo son apreciables en un plano. Estas naves constan de doce intercolunios que corren en dirección al muro de la quibla."
+                android:gravity="left"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los materiales utilizados son de acarreo: fustes de columnas y capiteles procedentes de construcciones y épocas anteriores (romanos y visigodos), sobre los cuales se elevan pilares rectangulares de sillería que dotan de más altura al conjunto. Para darle estabilidad a este alzado se recurre a dobles arcos, de los cuales el inferior, de herradura, hace funciones de entibo, mientras que el superior, de medio punto, es el que soporta la cubierta. Este sistema, además de la alternancia cromática y material de las dovelas, rojas de ladrillo, amarillentas las de caliza, parece estar inspirado en el acueducto romano de Los Milagros (Mérida)."
+                android:gravity="left"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El resultado es un inmenso bosque de columnas coronado de doble arquería que recuerda a un palmeral. El conjunto se cierra con el muro de la quibla, que a diferencia de la mayoría de mezquitas no está orientado hacia La Meca sino hacia el sur, hecho éste cuyo motivo está en duda, y que van desde la inexperiencia y el error en el cálculo, hasta la pura intencionalidad política tras la proclamación de la independencia política del emirato cordobés, todo apunta a que quisieron imitar a la Mezquita de Damasco, también de los Omeya, y orientada al sur. Las obras terminaron en el 788."
+                android:gravity="left"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
